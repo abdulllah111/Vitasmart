@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj",
+        "projectName": "Vitasmart.Application",
+        "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj",
+        "packagesPath": "C:\\Users\\shoki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shoki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Domain\\Vitasmart.Domain.csproj": {
+                "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Domain\\Vitasmart.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Domain\\Vitasmart.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Domain\\Vitasmart.Domain.csproj",
+        "projectName": "Vitasmart.Domain",
+        "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Domain\\Vitasmart.Domain.csproj",
+        "packagesPath": "C:\\Users\\shoki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shoki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj",
+        "projectName": "Vitasmart.EntityFramework",
+        "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj",
+        "packagesPath": "C:\\Users\\shoki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.EntityFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shoki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj": {
+                "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\shoki\source\repos\Vitasmart.Backend\Vitasmart.Domain\bin\Debug\net7.0\Vitasmart.Domain.deps.json
+C:\Users\shoki\source\repos\Vitasmart.Backend\Vitasmart.Domain\bin\Debug\net7.0\Vitasmart.Domain.dll
+C:\Users\shoki\source\repos\Vitasmart.Backend\Vitasmart.Domain\bin\Debug\net7.0\Vitasmart.Domain.pdb
+C:\Users\shoki\source\repos\Vitasmart.Backend\Vitasmart.Domain\obj\Debug\net7.0\Vitasmart.Domain.csproj.AssemblyReference.cache
+C:\Users\shoki\source\repos\Vitasmart.Backend\Vitasmart.Domain\obj\Debug\net7.0\Vitasmart.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shoki\source\repos\Vitasmart.Backend\Vitasmart.Domain\obj\Debug\net7.0\Vitasmart.Domain.AssemblyInfoInputs.cache
+C:\Users\shoki\source\repos\Vitasmart.Backend\Vitasmart.Domain\obj\Debug\net7.0\Vitasmart.Domain.AssemblyInfo.cs
+C:\Users\shoki\source\repos\Vitasmart.Backend\Vitasmart.Domain\obj\Debug\net7.0\Vitasmart.Domain.csproj.CoreCompileInputs.cache
+C:\Users\shoki\source\repos\Vitasmart.Backend\Vitasmart.Domain\obj\Debug\net7.0\Vitasmart.Domain.dll
+C:\Users\shoki\source\repos\Vitasmart.Backend\Vitasmart.Domain\obj\Debug\net7.0\refint\Vitasmart.Domain.dll
+C:\Users\shoki\source\repos\Vitasmart.Backend\Vitasmart.Domain\obj\Debug\net7.0\Vitasmart.Domain.pdb
+C:\Users\shoki\source\repos\Vitasmart.Backend\Vitasmart.Domain\obj\Debug\net7.0\ref\Vitasmart.Domain.dll
