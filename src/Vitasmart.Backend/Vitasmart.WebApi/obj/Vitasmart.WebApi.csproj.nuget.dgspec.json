@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.WebApi\\Vitasmart.WebApi.csproj": {}
+    "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.WebApi\\Vitasmart.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.WebApi\\Vitasmart.WebApi.csproj": {
+    "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.WebApi\\Vitasmart.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.WebApi\\Vitasmart.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.WebApi\\Vitasmart.WebApi.csproj",
         "projectName": "Vitasmart.WebApi",
-        "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.WebApi\\Vitasmart.WebApi.csproj",
+        "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.WebApi\\Vitasmart.WebApi.csproj",
         "packagesPath": "C:\\Users\\shoki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shoki\\AppData\\Roaming\\NuGet\\NuGet.Config",

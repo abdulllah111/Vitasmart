@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sz70l6YzfqqGEFAk4v/rhyhwQEJOpkH1cA0R29zCHVyDKLbFU/Z0kdmfND5NrlHjZUqJOD3BPm541fR4sDyYAA==",
+  "dgSpecHash": "ukPGgEGiQNahk/Ncf3HGfOZNqRRRcRUD6AFoB5EaU1vhBuKXXH1aYAeoh3xP+w3gWG9ojQ3GoX6PP+yFGPfwpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.WebApi\\Vitasmart.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.WebApi\\Vitasmart.WebApi.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

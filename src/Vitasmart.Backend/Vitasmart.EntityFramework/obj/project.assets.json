@@ -18,6 +18,36 @@
           }
         }
       },
+      "MediatR/12.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MediatR.Contracts": "[2.0.1, 3.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/MediatR.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -299,6 +329,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "AutoMapper": "12.0.1",
+          "MediatR": "12.0.1",
           "Microsoft.EntityFrameworkCore": "7.0.3",
           "Vitasmart.Domain": "1.0.0"
         },
@@ -335,6 +366,36 @@
         "icon.png",
         "lib/netstandard2.1/AutoMapper.dll",
         "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "MediatR/12.0.1": {
+      "sha512": "vfxplMielft+g5jxGO31xjjQpI6yqe4r2YGt0Q8x23phwbpJNmUQGY+cCNNFMKKViXRM67ajUlAiwirMeuJWTQ==",
+      "type": "package",
+      "path": "mediatr/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net6.0/MediatR.dll",
+        "lib/net6.0/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "mediatr.12.0.1.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Contracts/2.0.1": {
+      "sha512": "FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "type": "package",
+      "path": "mediatr.contracts/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.0/MediatR.Contracts.dll",
+        "lib/netstandard2.0/MediatR.Contracts.xml",
+        "mediatr.contracts.2.0.1.nupkg.sha512",
+        "mediatr.contracts.nuspec"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -822,11 +883,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj",
+      "projectUniqueName": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj",
       "projectName": "Vitasmart.EntityFramework",
-      "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj",
+      "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj",
       "packagesPath": "C:\\Users\\shoki\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.EntityFramework\\obj\\",
+      "outputPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.EntityFramework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shoki\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -843,8 +904,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj": {
-              "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj"
+            "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj": {
+              "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj"
             }
           }
         }

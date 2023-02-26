@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DvmkdsT925TAnMl657jkdJimO2Q9dyypKD+aO44N1WTfDlQE1xpdQca51ajhF2WubsDa9STF90VyOCfpl6k4vg==",
+  "dgSpecHash": "R6UU3C7TfKChzYWGabF+ql7zu1hBRfWBc2NKJz1d0+imxareV0i/aS7/pyqpem6fODrzTN+rubaVa8r+P4TQJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj",
+  "projectFilePath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shoki\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\shoki\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\shoki\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\shoki\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\shoki\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
     "C:\\Users\\shoki\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj": {}
+    "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj": {
+    "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj",
+        "projectUniqueName": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj",
         "projectName": "Vitasmart.Application",
-        "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj",
+        "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj",
         "packagesPath": "C:\\Users\\shoki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Application\\obj\\",
+        "outputPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shoki\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Domain\\Vitasmart.Domain.csproj": {
-                "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Domain\\Vitasmart.Domain.csproj"
+              "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.Domain\\Vitasmart.Domain.csproj": {
+                "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.Domain\\Vitasmart.Domain.csproj"
               }
             }
           }
@@ -45,6 +45,10 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR": {
               "target": "Package",
               "version": "[12.0.1, )"
             },
@@ -73,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Domain\\Vitasmart.Domain.csproj": {
+    "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.Domain\\Vitasmart.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Domain\\Vitasmart.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.Domain\\Vitasmart.Domain.csproj",
         "projectName": "Vitasmart.Domain",
-        "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Domain\\Vitasmart.Domain.csproj",
+        "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.Domain\\Vitasmart.Domain.csproj",
         "packagesPath": "C:\\Users\\shoki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Domain\\obj\\",
+        "outputPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shoki\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -128,14 +132,14 @@
         }
       }
     },
-    "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj": {
+    "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj",
+        "projectUniqueName": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj",
         "projectName": "Vitasmart.EntityFramework",
-        "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj",
+        "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj",
         "packagesPath": "C:\\Users\\shoki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.EntityFramework\\obj\\",
+        "outputPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.EntityFramework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shoki\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,8 +156,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj": {
-                "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj"
+              "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj": {
+                "projectPath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.Application\\Vitasmart.Application.csproj"
               }
             }
           }
