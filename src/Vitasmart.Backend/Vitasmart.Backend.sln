@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vitasmart.Domain", "Vitasmart.Domain\Vitasmart.Domain.csproj", "{477797C8-9E24-46AB-9E56-5E1931C929D3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vitasmart.EntityFramework", "Vitasmart.EntityFramework\Vitasmart.EntityFramework.csproj", "{42ECB135-3B0F-487C-B1A8-69CE017C70DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vitasmart.Persistence.Npgsql", "Vitasmart.EntityFramework\Vitasmart.Persistence.Npgsql.csproj", "{42ECB135-3B0F-487C-B1A8-69CE017C70DA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vitasmart.Application", "Vitasmart.Application\Vitasmart.Application.csproj", "{FFBE00F5-DFEF-4C56-8DB7-E81B87512B70}"
 EndProject

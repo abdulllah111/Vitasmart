@@ -5,7 +5,8 @@ namespace Vitasmart.Application.Visitings.Commands.CreateVisiting
 {
     public class CreateVisitingCommand : IRequest<Guid>
     {
-        public Guid PatientId { get; set; }
+        public DateTime Date { get; set; }
         public string? Diagnose { get; set; }
+        public Guid PatientId { get; set; }
     }
 }

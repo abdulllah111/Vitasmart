@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "llZgrcxwMjFbejFPUaNLrkcNMB8mk790EOc+ZPTVrGA=",
+  "Source": "Vitasmart.WebApi",
+  "BasePath": "_content/Vitasmart.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

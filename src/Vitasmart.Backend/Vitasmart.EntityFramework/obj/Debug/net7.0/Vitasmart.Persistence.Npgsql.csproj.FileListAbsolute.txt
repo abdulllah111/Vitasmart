@@ -1,0 +1,17 @@
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\bin\Debug\net7.0\Vitasmart.Persistence.Npgsql.deps.json
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\bin\Debug\net7.0\Vitasmart.Persistence.Npgsql.dll
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\bin\Debug\net7.0\Vitasmart.Persistence.Npgsql.pdb
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\bin\Debug\net7.0\Vitasmart.Application.dll
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\bin\Debug\net7.0\Vitasmart.Domain.dll
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\bin\Debug\net7.0\Vitasmart.Application.pdb
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\bin\Debug\net7.0\Vitasmart.Domain.pdb
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\obj\Debug\net7.0\Vitasmart.Persistence.Npgsql.csproj.AssemblyReference.cache
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\obj\Debug\net7.0\Vitasmart.Persistence.Npgsql.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\obj\Debug\net7.0\Vitasmart.Persistence.Npgsql.AssemblyInfoInputs.cache
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\obj\Debug\net7.0\Vitasmart.Persistence.Npgsql.AssemblyInfo.cs
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\obj\Debug\net7.0\Vitasmart.Persistence.Npgsql.csproj.CoreCompileInputs.cache
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\obj\Debug\net7.0\Vitasmart.Persistence.Npgsql.csproj.CopyComplete
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\obj\Debug\net7.0\Vitasmart.Persistence.Npgsql.dll
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\obj\Debug\net7.0\refint\Vitasmart.Persistence.Npgsql.dll
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\obj\Debug\net7.0\Vitasmart.Persistence.Npgsql.pdb
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.EntityFramework\obj\Debug\net7.0\ref\Vitasmart.Persistence.Npgsql.dll

@@ -20,6 +20,7 @@ namespace Vitasmart.Application.Visitings.Commands.UpdateVisiting
                 throw new NotFoundException(nameof(Visiting), request.Id);
             }
 
+            entity.Date = request.Date;
             entity.Diagnose = request.Diagnose;
             entity.DateUpdated = DateTime.Now;
 

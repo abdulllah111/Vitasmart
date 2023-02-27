@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "4c2nvPL8RewXzN0mpcUKOx6k1QIC9xH+PjfZlC0acoJ97nnxptmUvMPUMCWOvCkBk4EUa/EGffH6KqSsxmc8UA==",
+  "dgSpecHash": "PNKqinl6YAKH5dS1sWag/hY5dauQYGW2WylAgrbbjYcCyv4mZvO4puZ3KZxHBFPyfVN5sTWsiziKMDNVxlJDrw==",
   "success": true,
   "projectFilePath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.WebApi\\Vitasmart.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shoki\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\shoki\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\shoki\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\shoki\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\shoki\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
