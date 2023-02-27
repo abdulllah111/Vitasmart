@@ -8,10 +8,10 @@ namespace Vitasmart.Application.Patients.Queries.GetPatientList
 {
     public class GetPatientListQueryHandler : IRequestHandler<GetPatientListQuery, PatientListVm>
     {
-        private readonly IPatientsDbContext _dbContext;
+        private readonly IApplicationDbContext _dbContext;
         private readonly IMapper _mapper;
 
-        public GetPatientListQueryHandler(IPatientsDbContext dbContext, IMapper mapper) =>
+        public GetPatientListQueryHandler(IApplicationDbContext dbContext, IMapper mapper) =>
             (_dbContext, _mapper) = (dbContext, mapper);
 
         public async Task<PatientListVm> Handle(GetPatientListQuery request, CancellationToken cancellationToken)

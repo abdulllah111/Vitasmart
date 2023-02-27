@@ -6,8 +6,8 @@ namespace Vitasmart.Application.Patients.Commands.CreatePatient
 {
     public class CreatePatientCommandHandler : IRequestHandler<CreatePatientCommand, Guid>
     {
-        private readonly IPatientsDbContext _dbContext;
-        public CreatePatientCommandHandler(IPatientsDbContext dbContext) 
+        private readonly IApplicationDbContext _dbContext;
+        public CreatePatientCommandHandler(IApplicationDbContext dbContext) 
         {
             _dbContext = dbContext;
         }

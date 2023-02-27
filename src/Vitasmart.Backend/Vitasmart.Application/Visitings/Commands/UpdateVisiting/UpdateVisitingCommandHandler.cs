@@ -8,8 +8,8 @@ namespace Vitasmart.Application.Visitings.Commands.UpdateVisiting
 {
     public class UpdateVisitingCommandHandler : IRequest<UpdateVisitingCommand>
     {
-        private readonly IVisitingsDbContext _dbContext;
-        public UpdateVisitingCommandHandler(IVisitingsDbContext dbContext) => _dbContext = dbContext;
+        private readonly IApplicationDbContext _dbContext;
+        public UpdateVisitingCommandHandler(IApplicationDbContext dbContext) => _dbContext = dbContext;
         public async Task<Unit> Handle(UpdateVisitingCommand request, CancellationToken cancellationToken)
         {
             var entity =

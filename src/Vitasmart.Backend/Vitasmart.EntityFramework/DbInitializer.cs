@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Vitasmart.EntityFramework
+namespace Vitasmart.Persistence.Npgsql
 {
     public class DbInitializer
     {
-        public static void Initialize(PatientsDbContext patientsDbContext, VisitingsDbContext visitingsDbContext)
+        public static void Initialize(ApplicationDbContext applicationDbContext)
         {
-            patientsDbContext.Database.EnsureCreated();
-            visitingsDbContext.Database.EnsureCreated();
+            applicationDbContext.Database.EnsureCreated();
         }
     }
 }

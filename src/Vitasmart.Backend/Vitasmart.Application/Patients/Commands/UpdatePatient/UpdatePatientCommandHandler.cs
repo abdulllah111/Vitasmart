@@ -8,8 +8,8 @@ namespace Vitasmart.Application.Patients.Commands.UpdatePatient
 {
     public class UpdatePatientCommandHandler : IRequest<UpdatePatientCommand>
     {
-        private readonly IPatientsDbContext _dbContext;
-        public UpdatePatientCommandHandler(IPatientsDbContext dbContext) => _dbContext = dbContext;
+        private readonly IApplicationDbContext _dbContext;
+        public UpdatePatientCommandHandler(IApplicationDbContext dbContext) => _dbContext = dbContext;
         public async Task<Unit> Handle(UpdatePatientCommand request, CancellationToken cancellationToken)
         {
             var entity = 

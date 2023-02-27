@@ -6,8 +6,8 @@ namespace Vitasmart.Application.Visitings.Commands.CreateVisiting
 {
     public class CreateVisitingCommandHandler : IRequestHandler<CreateVisitingCommand, Guid>
     {
-        private readonly IVisitingsDbContext _dbContext;
-        public CreateVisitingCommandHandler(IVisitingsDbContext dbContext)
+        private readonly IApplicationDbContext _dbContext;
+        public CreateVisitingCommandHandler(IApplicationDbContext dbContext)
         {
             _dbContext = dbContext;
         }

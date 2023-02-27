@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Vitasmart.Domain;
 
-namespace Vitasmart.EntityFramework.EntityTypeConfigurations
+namespace Vitasmart.Persistence.Npgsql.EntityTypeConfigurations
 {
     internal class PatientConfiguration : IEntityTypeConfiguration<Patient>
     {

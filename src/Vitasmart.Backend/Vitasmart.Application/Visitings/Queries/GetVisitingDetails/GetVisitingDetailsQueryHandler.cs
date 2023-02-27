@@ -9,10 +9,10 @@ namespace Vitasmart.Application.Visitings.Queries.GetVisitingDetails
 {
     public class GetVisitingDetailsQueryHandler : IRequestHandler<GetVisitingDetailsQuery, VisitingDetailsVm>
     {
-        private readonly IVisitingsDbContext _dbContext;
+        private readonly IApplicationDbContext _dbContext;
         private readonly IMapper _mapper;
 
-        public GetVisitingDetailsQueryHandler(IVisitingsDbContext dbContext, IMapper mapper) =>
+        public GetVisitingDetailsQueryHandler(IApplicationDbContext dbContext, IMapper mapper) =>
             (_dbContext, _mapper) = (dbContext, mapper);
 
         public async Task<VisitingDetailsVm> Handle(GetVisitingDetailsQuery request, CancellationToken cancellationToken)

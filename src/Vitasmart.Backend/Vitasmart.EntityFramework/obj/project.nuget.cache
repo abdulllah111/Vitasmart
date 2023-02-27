@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "daJjYg6mFehgMiLyKl6NRRvn9/3C5/v9k1UpCWQJ4Awiaco4sEdJ+w/hXw9Q1IeHSYkKBjPJbHlTujCg42wsYg==",
+  "dgSpecHash": "YnSxv+YdjvpNmZIQESIKPoF8VmFUYj5CWPKCEzYpFKwfI0GSYTrxnPjjqWoaMUGWq4nqvFmbq3V8fP/N5tMDXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.EntityFramework.csproj",
+  "projectFilePath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.Persistence.Npgsql.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shoki\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
-    "C:\\Users\\shoki\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
-    "C:\\Users\\shoki\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\shoki\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\shoki\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\shoki\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\shoki\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\shoki\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
     "C:\\Users\\shoki\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",

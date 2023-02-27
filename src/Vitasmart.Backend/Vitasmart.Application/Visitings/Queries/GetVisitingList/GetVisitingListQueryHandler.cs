@@ -8,10 +8,10 @@ namespace Vitasmart.Application.Visitings.Queries.GetVisitingList
 {
     public class GetVisitingListQueryHandler : IRequestHandler<GetVisitingListQuery, VisitingListVm>
     {
-        private readonly IVisitingsDbContext _dbContext;
+        private readonly IApplicationDbContext _dbContext;
         private readonly IMapper _mapper;
 
-        public GetVisitingListQueryHandler(IVisitingsDbContext dbContext, IMapper mapper) =>
+        public GetVisitingListQueryHandler(IApplicationDbContext dbContext, IMapper mapper) =>
             (_dbContext, _mapper) = (dbContext, mapper);
 
         public async Task<VisitingListVm> Handle(GetVisitingListQuery request, CancellationToken cancellationToken)

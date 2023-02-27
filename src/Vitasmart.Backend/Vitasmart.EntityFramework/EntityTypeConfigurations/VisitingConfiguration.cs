@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Vitasmart.Domain;
 
-namespace Vitasmart.EntityFramework.EntityTypeConfigurations
+namespace Vitasmart.Persistence.Npgsql.EntityTypeConfigurations
 {
     internal class VisitingConfiguration : IEntityTypeConfiguration<Visiting>
     {
