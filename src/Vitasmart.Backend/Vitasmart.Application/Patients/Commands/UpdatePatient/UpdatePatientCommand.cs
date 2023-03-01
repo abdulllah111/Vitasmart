@@ -9,6 +9,6 @@ namespace Vitasmart.Application.Patients.Commands.UpdatePatient
         public string? Name { get; set; }
         public string? Patronymic { get; set; }
         public DateTime BirthDay { get; set; }
-        public int PhoneNumber { get; set; }
+        public long PhoneNumber { get; set; }
     }
 }

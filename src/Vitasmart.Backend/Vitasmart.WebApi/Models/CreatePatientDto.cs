@@ -10,7 +10,7 @@ namespace Vitasmart.WebApi.Models
         public string? Name { get; set; }
         public string? Patronymic { get; set; }
         public DateTime BirthDay { get; set; }
-        public int PhoneNumber { get; set; }
+        public long PhoneNumber { get; set; }
         public void Mappings(Profile profile)
         {
             profile.CreateMap<CreatePatientDto, CreatePatientCommand>()

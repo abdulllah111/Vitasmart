@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "YnSxv+YdjvpNmZIQESIKPoF8VmFUYj5CWPKCEzYpFKwfI0GSYTrxnPjjqWoaMUGWq4nqvFmbq3V8fP/N5tMDXA==",
+  "dgSpecHash": "dMq7gMsi/rkYXhE80y54sWOIC/GipANNx5TODQ/Q6KNe/BvRrZaqqPGqT7LC3yAIkFeTtxwz1JEmF6im3qjO+A==",
   "success": true,
   "projectFilePath": "C:\\Users\\shoki\\source\\repos\\Vitasmart\\src\\Vitasmart.Backend\\Vitasmart.EntityFramework\\Vitasmart.Persistence.Npgsql.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shoki\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\shoki\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\shoki\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\shoki\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\shoki\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\shoki\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",

@@ -41,3 +41,5 @@ C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.WebApi\obj
 C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.WebApi\obj\Debug\net7.0\Vitasmart.WebApi.pdb
 C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.WebApi\obj\Debug\net7.0\Vitasmart.WebApi.genruntimeconfig.cache
 C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.WebApi\obj\Debug\net7.0\ref\Vitasmart.WebApi.dll
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.WebApi\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\shoki\source\repos\Vitasmart\src\Vitasmart.Backend\Vitasmart.WebApi\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll

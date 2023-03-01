@@ -1,5 +1,4 @@
 using MediatR;
-using Vitasmart.Domain;
 
 namespace Vitasmart.Application.Visitings.Queries.GetVisitingDetails
 {

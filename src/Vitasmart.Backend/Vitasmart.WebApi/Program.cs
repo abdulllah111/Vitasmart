@@ -4,6 +4,7 @@ using Vitasmart.Application;
 using Vitasmart.Application.Common.Mappings;
 using Vitasmart.Application.Interfaces;
 using Vitasmart.Persistence.Npgsql;
+using Vitasmart.WebApi.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -60,6 +61,7 @@ void Configure(WebApplication app)
         app.UseDeveloperExceptionPage();
     }
 
+    app.UseCustomExceptionHandler();
     app.UseRouting();
     app.UseHttpsRedirection();
     app.UseCors("AllowAll");

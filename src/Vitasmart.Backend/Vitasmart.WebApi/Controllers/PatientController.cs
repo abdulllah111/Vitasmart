@@ -1,3 +1,4 @@
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Vitasmart.Application.Patients.Queries.GetPatientDetails;
 using Vitasmart.Application.Patients.Queries.GetPatientList;

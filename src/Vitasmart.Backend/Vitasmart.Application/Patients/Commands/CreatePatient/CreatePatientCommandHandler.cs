@@ -1,4 +1,5 @@
 using MediatR;
+using System.Collections.ObjectModel;
 using Vitasmart.Application.Interfaces;
 using Vitasmart.Domain;
 
@@ -15,6 +16,7 @@ namespace Vitasmart.Application.Patients.Commands.CreatePatient
         {
             var patient = new Patient
             {
+                Id = Guid.NewGuid(),
                 Surname = request.Surname,
                 Name = request.Name,
                 Patronymic = request.Patronymic,

@@ -15,6 +15,7 @@ namespace Vitasmart.Application.Visitings.Commands.CreateVisiting
         {
             var visiting = new Visiting
             {
+                Id = Guid.NewGuid(),
                 Date = request.Date,
                 Diagnose = request.Diagnose,
                 PatientId = request.PatientId,
