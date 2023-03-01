@@ -25,7 +25,7 @@ namespace Vitasmart.Application.Patients.Commands.UpdatePatient
             entity.Patronymic = request.Patronymic;
             entity.BirthDay = request.BirthDay;
             entity.PhoneNumber = request.PhoneNumber;
-            entity.DateUpdated = DateTime.Now;
+            entity.DateUpdated = DateOnly.FromDateTime(DateTime.Today);
 
             await _dbContext.SaveChangesAsync(cancellationToken);
             return Unit.Value;

@@ -10,10 +10,10 @@ namespace Vitasmart.Application.Patients.Queries.GetPatientDetails
         public string? Surname { get; set; }
         public string? Name { get; set; }
         public string? Patronymic { get; set; }
-        public DateTime BirthDay { get; set; }
+        public DateOnly BirthDay { get; set; }
         public long PhoneNumber { get; set; }
-        public DateTime DateAdded { get; set; }
-        public DateTime DateUpdated { get; set; }
+        public DateOnly DateAdded { get; set; }
+        public DateOnly DateUpdated { get; set; }
         public ICollection<Visiting>? Visitings { get; set; }
 
         public void Mapping(Profile profile)

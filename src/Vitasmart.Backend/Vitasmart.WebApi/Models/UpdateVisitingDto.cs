@@ -11,7 +11,7 @@ namespace Vitasmart.WebApi.Models
         public Guid Id { get; set; }
         public Guid PatientId { get; set; }
         public string? Diagnose { get; set; }
-        public DateTime Date { get; set; }
+        public DateOnly Date { get; set; }
 
         public void Mapping(Profile profile)
         {

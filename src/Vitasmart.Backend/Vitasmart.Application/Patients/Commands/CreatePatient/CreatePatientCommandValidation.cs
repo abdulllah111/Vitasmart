@@ -10,7 +10,6 @@ namespace Vitasmart.Application.Patients.Commands
             RuleFor(createPatientCommand => createPatientCommand.Name).NotEmpty().MaximumLength(250);
             RuleFor(createPatientCommand => createPatientCommand.Surname).NotEmpty().MaximumLength(250);
             RuleFor(createPatientCommand => createPatientCommand.Patronymic).NotEmpty().MaximumLength(250);
-            RuleFor(createPatientCommand => createPatientCommand.PhoneNumber).InclusiveBetween(10, 30);
         }
     }
 }

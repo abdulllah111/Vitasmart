@@ -6,7 +6,7 @@ namespace Vitasmart.WebApi.Models
 {
     public class CreateVisitingDto : IMapWith<CreateVisitingCommand>
     {
-        public DateTime Date { get; set; }
+        public DateOnly Date { get; set; }
         public string? Diagnose { get; set; }
 
         public void Mapping(Profile profile)

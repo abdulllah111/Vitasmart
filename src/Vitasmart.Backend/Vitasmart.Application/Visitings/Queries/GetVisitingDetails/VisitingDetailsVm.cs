@@ -7,10 +7,10 @@ namespace Vitasmart.Application.Visitings.Queries.GetVisitingDetails
     public class VisitingDetailsVm : IRequest<Visiting>
     {
         public Guid Id { get; set; }
-        public DateTime Date { get; set; }
+        public DateOnly Date { get; set; }
         public string? Diagnose { get; set; }
-        public DateTime DateAdded { get; set; }
-        public DateTime DateUpdated { get; set; }
+        public DateOnly DateAdded { get; set; }
+        public DateOnly DateUpdated { get; set; }
 
         public void Mapping(Profile profile)
         {

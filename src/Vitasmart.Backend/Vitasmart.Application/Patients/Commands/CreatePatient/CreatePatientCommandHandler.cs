@@ -22,7 +22,7 @@ namespace Vitasmart.Application.Patients.Commands.CreatePatient
                 Patronymic = request.Patronymic,
                 BirthDay = request.BirthDay,
                 PhoneNumber = request.PhoneNumber,
-                DateAdded = DateTime.Now,
+                DateAdded = DateOnly.FromDateTime(DateTime.Today),
                 DateUpdated = null
             };
 

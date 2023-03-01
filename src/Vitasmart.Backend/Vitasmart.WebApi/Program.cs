@@ -1,12 +1,17 @@
-using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 using Vitasmart.Application;
-using Vitasmart.Application.Common.Mappings;
 using Vitasmart.Application.Interfaces;
 using Vitasmart.Persistence.Npgsql;
 using Vitasmart.WebApi.Middleware;
+using Vitasmart.Application.Common.Mappings;
 
 var builder = WebApplication.CreateBuilder(args);
+
+//builder.Services.AddAutoMapper(config =>
+//{
+//    config.AddProfile(new AssemblyMappingProfile(Assembly.GetExecutingAssembly()));
+//    config.AddProfile(new AssemblyMappingProfile(typeof(IApplicationDbContext).Assembly));
+//});
 
 RegisterServices(builder.Services);
 
@@ -32,7 +37,7 @@ app.Run();
 
 void RegisterServices(IServiceCollection services)
 {
-    services.AddAutoMapper(config =>
+    builder.Services.AddAutoMapper(config =>
     {
         config.AddProfile(new AssemblyMappingProfile(Assembly.GetExecutingAssembly()));
         config.AddProfile(new AssemblyMappingProfile(typeof(IApplicationDbContext).Assembly));

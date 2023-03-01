@@ -22,7 +22,7 @@ namespace Vitasmart.Application.Visitings.Commands.UpdateVisiting
 
             entity.Date = request.Date;
             entity.Diagnose = request.Diagnose;
-            entity.DateUpdated = DateTime.Now;
+            entity.DateUpdated = DateOnly.FromDateTime(DateTime.Today);
 
             await _dbContext.SaveChangesAsync(cancellationToken);
             return Unit.Value;

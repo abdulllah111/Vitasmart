@@ -3,6 +3,7 @@ using MediatR;
 using System.Reflection;
 using FluentValidation;
 using Vitasmart.Application.Common.Behaviors;
+using AutoMapper;
 
 namespace Vitasmart.Application
 {

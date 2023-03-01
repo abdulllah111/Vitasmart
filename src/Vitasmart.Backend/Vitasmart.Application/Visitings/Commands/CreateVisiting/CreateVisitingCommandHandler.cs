@@ -19,7 +19,7 @@ namespace Vitasmart.Application.Visitings.Commands.CreateVisiting
                 Date = request.Date,
                 Diagnose = request.Diagnose,
                 PatientId = request.PatientId,
-                DateAdded = DateTime.Now,
+                DateAdded = DateOnly.FromDateTime(DateTime.Today),
                 DateUpdated = null
             };
 

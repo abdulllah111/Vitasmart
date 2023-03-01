@@ -6,6 +6,6 @@ namespace Vitasmart.Application.Visitings.Commands.UpdateVisiting
     {
         public Guid Id { get; set; }
         public string? Diagnose { get; set; }
-        public DateTime Date { get; set; }
+        public DateOnly Date { get; set; }
     }
 }
